@@ -1,4 +1,4 @@
-module github.com/mastak/scrapex-go
+module github.com/mastak/scrapexgo
 
 go 1.17
 
