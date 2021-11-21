@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/mastak/scrapex-go/pkg/scrapex-go/model"
+	"github.com/mastak/scrapexgo/pkg/scrapexgo/model"
 	logger "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )
