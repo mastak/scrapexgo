@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/jessevdk/go-flags"
-	scrapex "github.com/mastak/scrapex-go"
+	"github.com/mastak/scrapex-go/pkg/scrapex-go/model"
 	logger "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )
@@ -26,8 +26,8 @@ var (
 	commit  = ""
 )
 
-func setOptions() (scrapex.Config, error) {
-	config := scrapex.Config{}
+func setOptions() (model.Config, error) {
+	config := model.Config{}
 
 	var parser = flags.NewParser(&options, flags.Default)
 	parser.ShortDescription = `scrapex`
